@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Filtrowanie pobranych elementów</title>
+</head>
+
+<body>
+  <h1>Filtrowanie pobranych elementów</h1>
+  <label for="user-id-filter">userId filter:</label>
+  <input id="user-id-filter" type="number" name="user-id-filter" value=""><br>
+  <label for="id-from-filter">id from:</label>
+  <input id="id-from-filter" type="number" name="id-from-filter" value=""><br>
+  <label for="id-to-filter">id to:</label>
+  <input id="id-to-filter" type="number" name="id-to-filter" value=""><br>
+  <label for="completed">completed:</label>
+  <input type="checkbox" id="completed" name="completed" value="">
+  <button onclick="filtering()">pobierz elementy</button>
+
+  <div id="list-container">
+    <h1></h1>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
